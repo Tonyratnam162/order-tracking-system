@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: springboot.orders_tracking_system.OtsnewApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.879 s -- in springboot.orders_tracking_system.OtsnewApplicationTests

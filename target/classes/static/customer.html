@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+          .container{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            border: 2px;
+            
+          }
+          input{
+            display: flex;
+            flex-direction: column;
+            padding:10px;
+          }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <form action="/register" method="post" name="f1">
+        
+    <label for="customer">Customer Name:</label>
+    <input type="text" id="customer" required><br>
+    <label for="c_email">Customer Email:</label>
+    <input type="email" id="c_email" required><br>
+    <label for="c_mobile">Customer Mobile:</label>
+    <input type="number" id="c_mobile" required><br>
+    <input type="submit" value="create customer">
+       
+    </form>
+</div>
+</body>
+</html>
